@@ -47,12 +47,6 @@ jobs:
           # build on feature branches, push only on main branch
           push: ${{ github.ref == 'refs/heads/main' }}
 
-      - name: Build image and push database
-          # DO the same for database
-
-      - name: Build image and push httpd
-        # DO the same for httpd
-
 
 
   
