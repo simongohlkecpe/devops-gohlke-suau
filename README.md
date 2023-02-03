@@ -101,7 +101,7 @@ On build l'image et on crée le container avec la commande :
 
 `docker run -p "8081:8080" --name multiapi_containeur multiapi`
 
-Si on se connect à localhost/8081 on voit que notre Api marche
+Si on se connecte à localhost/8081 on voit que notre Api marche
 
 ## Api avec BDD
 
