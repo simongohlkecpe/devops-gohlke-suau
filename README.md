@@ -173,6 +173,9 @@ on ajoute le fichier setup.yml dans le dossier ansible
 On le configure, on lui ajoute le chemin complet de la clé RSA et notre host qui est le serveur envoyé par mail. 
 Puis la commande `ansible all -i inventories/setup.yml -m ping` fonctionne.
 On crée ensuite des playbook, les playbooks permettent de faire des actions, par exemple d'installer docker.
+on crée ensuite des roles et on ajoute dans chaque roles des tasks spécifiques, pour chaque partie de notre projet.
+Le playbook appellera ensuite les different roles.
+SI on a pas fait d'erreur on voit que le serveur est bien lancé.
 
 
 
